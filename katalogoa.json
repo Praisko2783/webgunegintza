@@ -1,0 +1,25 @@
+[
+    {
+        "galdera":"Nola deitzen diogu webgunearen helbideari?", 
+        "auke1":"Internet Protocol (IP)","auke2":"Uniform Resource Locator (URL) ","auke3":"Hypertext Transfer Protocol (HTTP)",
+        "eranfb1":"Erantzun zuzena: Uniform Resource Locator (URL). IPa, Internet Protocol, ordenagailua sarean identifikatzeko protokoloa da. Horrela, nabigatzaileak, IPa baliatuz, zerbitzaria bilatzen du dokumentua bidaltzeko eskatu aurretik.",
+        "eranfb2":"Webgunearen helbideari URL esaten diogu eta hiru zati izaten ditu: HTTP komunikazio protokoloa, domeinuaren izena eta deskargatu nahi den baliabidearen izena.",
+        "eranfb3":"Erantzun zuzena: Uniform Resource Locator (URL). Hypertext Transfer Protocol (HTTP) edo (HTTPS) komunikazio-protokoloa irudikatzen duen karaktere-katea da. 'S' letrak adierazten du konexioa enkriptatu egiten dela."
+    },
+    
+    {
+        "galdera":"Webguneko orrien dokumentuen erreferentziak dira.",
+        "auke1":"Hiperestekak","auke2":"Fitxategiak","auke3":"Nabigatzaileak",
+        "eranfb1":"Erantzun zuzena: Hiperestekak. Fitxategiak webgunea zein web-orriak osatzeko behar ditugun baliabideak dira: html fitxategiak, irudi fitxategiak, css fitxategiak, audio fitxategiak, bideo fitxategiak...",
+        "eranfb2":"Hiperesteka horien bitartez orrialdeen artean nabiga daiteke. Saguarekin esteka batean klik eginez, nabigatzaileak erreferentzia horri jarraitzen dio URLak adierazitako dokumentua pantailan erakusteko.",
+        "eranfb3":"Erantzun zuzena: Hiperestekak. Web nabigatzaileak World Wide Web (WWW) saretik hipertestu bidezko dokumentuak eskuratzea ahalbidetzen duen aplikazioa da."	
+    },
+    
+    {
+        "galdera":"Zeri esaten diogu domeinu webguneez dihardugunean?",
+        "auke1":"URL helbideari","auke2":"IP helbideari","auke3":"Zerbitzariaren izenari",
+        "eranfb1":"Erantzun zuzena: Zerbitzariaren izenari. URL helbidea webgune bateko baliabide jakin bat deskargatzeko erabiltzen dugun helbidea da.",
+        "eranfb3":"Internetek zerbitzari bakoitza izen jakin batekin identifikatzen duen sistema bat erabiltzen du. Izen pertsonalizatu hauek, domeinu deituak, edonork gogora ditzakeen identifikatzaile errazak dira.",
+        "eranfb2":"Erantzun zuzena: Zerbitzariaren izenari. IPa zenbakiz osatua dago eta konputagailuari bere hizkuntzan helbidea adierazteko. Domeinua IP helbideari esteka izango litzateke."
+    }
+]
