@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Webgunegintza</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/estiloa.css">
+  <link rel="stylesheet" href="css/letra-familia.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Goiburukoa: gunearen titulua, azpititulua eta menua irekitzeko esteka  HASI -->
+  <header>
+    <img src="irudiak/praiskologoGardena.png" alt="Praiskopediaren logoa" class="praisikon"/>
+    <h1>web-gune-gintza</h1>
+    <span onclick="w3_open()"><i class="fa fa-arrow-circle-o-left"></i>&nbsp;Ireki menua</span>
+  </header>
+  <!-- Goiburukoa: gunearen titulua, azpititulua eta menua irekitzeko esteka  BUKA -->
+  <!-- Menua irekitzeko agindutakoan agertuko den menu bertikala  HASI -->
+  <nav class="nabimenua" id="mySidebar">
+    <div class="menuBtnItxi" onclick="w3_close()">
+      <i class="fa fa-arrow-circle-o-up"></i> Itxi menua
+    </div>
+    <a href="ikasgaiak/gidaGlosarioa.html" class="gidaBtn" style="color:grey;">Glosarioa</a>
+    <a href="ikasgaiak/gidaOsagarriak.html" class="gidaBtn" style="color:grey;">Material osagarria</a>
+    <a href="ikasgaiak/gidaDida.html" class="gidaBtn" style="color:green;"><u>Gida Didaktikoa</u></a>
+    <a href="ikasgaiak/ikas-internet.html" style="color:grey;">Internet </a>
+    <a href="ikasgaiak/ikas-WWW.html" style="color:green;"><u>Web garapena</u></a>
+    <a href="ikasgaiak/ikas-HTML.html" style="color:green;"><u>HTML</u></a>
+    <a href="ikasgaiak/ikas-CSS.html" style="color:grey;">CSS </a>
+    <a href="ikasgaiak/ikas-css-webDiseinua.html" style="color:grey;">Web diseinua</a>
+    <a href="ikasgaiak/ikas-css-diseinuMoldagarria.html" style="color:grey;">Diseinu moldagarria</a>
+    <a href="ikasgaiak/ikas-js.html" style="color:grey;">JavaScript</a>
+    <a href="ikasgaiak/ikas-js-API-formularioak.html" style="color:grey;">API (Formularioak)</a>
+    <a href="ikasgaiak/ikas-js-API-webMedia.html" style="color:grey;">API(Ikus-entzun)</a>
+    <a href="ikasgaiak/ikas-js-API-stream.html" style="color:grey;">API(Stream)</a>
+    <a href="ikasgaiak/ikas-js-API-fullscreen.html" style="color:grey;">API(Fullscreen)</a>
+    <a href="ikasgaiak/ikas-js-API-canvas.html" style="color:grey;">API(Canvas)</a>
+    <a href="ikasgaiak/ikas-js-API-webGL.html" style="color:grey;">API(WebGL)</a>
+    <a href="ikasgaiak/ikas-js-API-pointerLock.html" style="color:grey;">API(Pointer Lock)</a>
+    <a href="ikasgaiak/ikas-js-API-webStorage.html" style="color:grey;">API(Web Storage)</a>
+    <a href="ikasgaiak/ikas-js-API-IndexedDB.html" style="color:grey;">API(IndesedDB)</a>
+    <a href="ikasgaiak/ikas-js-API-file.html" style="color:grey;">API(File)</a>
+    <a href="ikasgaiak/ikas-js-API-dragdrop.html" style="color:grey;">API(Drag and Drop)</a>
+    <a href="ikasgaiak/ikas-js-API-geolocation.html" style="color:grey;">API(Geolocation)</a>
+    <a href="ikasgaiak/ikas-js-API-history.html" style="color:grey;">API(History)</a>
+    <a href="ikasgaiak/ikas-js-API-pageVsibility.html" style="color:grey;">API(Page Visibility)</a>
+    <a href="ikasgaiak/ikas-js-API-ajaxLevel2.html" style="color:grey;">API(AJAX Level2)</a>
+    <a href="ikasgaiak/ikas-js-API-webMessaging.html" style="color:grey;">API(Web Messaging)</a>
+    <a href="ikasgaiak/ikas-js-API-webSocket.html" style="color:grey;">API(WebSocket)</a>
+    <a href="ikasgaiak/ikas-js-API-webRTC.html" style="color:grey;">API(WebRTC)</a>
+    <a href="ikasgaiak/ikas-js-API-webAudio.html" style="color:grey;">API(Web Audio)</a>
+    <a href="ikasgaiak/ikas-js-API-webWorkers.html" style="color:grey;">API(Web Workers)</a>
+  </nav>
+  <!-- Menua irekitzeko agindutakoan agertuko den menu bertikala  BUKA -->
+  <!-- Agurreko hitzak eta egilearen eta gunearen aurkezpen laburra  HASI -->
+  <main>
+    <section>
+        <article>
+          <div class="ikasgaiBurua">
+            <h2><strong>ATARIKOAK</strong></h2>
+            <h3>Egileak web-garatzaile berriei:</h3>
+            <h4><b>Gora zuek! Eutsi pasioari!</b></h4>
+            <h6><i>Intentzio onenarekin, jakina</i></h6>
+          </div>
+          <div class="ikasgaia">
+            <p>Ikastaro honetan zerotik abiatuko gara, ez da aldez aurretik programazioaz ezer jakin behar, ikasteko gogoa
+              besterik ez da behar. Hauexek dira ikastaroaren lerro nagusiak:</p>
+            <ul class="w3-padding w3-margin">
+              <li class="w3-padding">
+                HTML5, CSS3 eta JavaScript irakastea, haien xehetasunak aztertuz, ikasiz eta erabiliz.
+              </li>
+              <li class="w3-padding">
+                Zalantzak argitzeko tokiak eta helbideak non diren erakustea.
+              </li>
+              <li class="w3-padding">
+                Mundu errealeko profesionalek nola lan egiten duten erakustea, haien tresnak aurkeztuz, hala nola Github,
+                Kode
+                editoreak, nabigatzaileen xehetasunak edota zerbitzari lokalak.
+              </li>
+            </ul>
+            <p>Programazioaren munduan arazo bera konpontzeko modu asko daude, guztiak balekoak. Halere, ikastaroaren
+              helburua
+              ez da problema bat ebazteko modu guzti-guztiak ikastea (hori urteetako praktikarekin ikasten da)..</p>
+          </div>
+        </article>
+      </section> 
+  <hr>
+  <!-- Agurreko hitzak eta egilearen eta gunearen aurkezpen laburra  BUKA -->
+  <!-- Ikasmaterialaren aurkezpena: gida,histegia,bibliografia  HASI -->
+  <section class="gidaAtalak">
+    <h3>Ikasmaterialaren gida didaktikoaz</h3>
+    <article class="gidatala">
+      <div class="gida">
+        <a href="ikasgaiak/gidaDida.html">
+          <i class="fa fa-home"></i>
+          <h3>Gida didaktikoa</h3>
+          <p>Internet gure bizitzan funtsezko bihurtu da, eta webgunea da interneteko teknologiak konektatzen dituena. Internet gure bizitzan funtsezko bihurtu da, eta webgunea da interneteko teknologiak konektatzen dituena.</p>
+        </a>
+      </div>
+      <div class="gida">
+        <a href="ikasgaiak/gidaGlosarioa.html">
+          <i class="fa fa-search"></i>
+          <h3>Glosarioa</h3>
+          <p>Internet gure bizitzan funtsezko bihurtu da, eta webgunea da interneteko teknologiak konektatzen
+            dituena.</p>
+        </a>
+      </div>
+        <div class="gida">
+          <a href="ikasgaiak\gidaOsagariak.html">
+          <i class="fa fa-book"></i>
+          <h3>Material osagarriak</h3>
+          <p>Internet gure bizitzan funtsezko bihurtu da, eta webgunea da interneteko teknologiak konektatzen
+            dituena.</p>
+        </a>
+        </div>
+        
+    </article>
+  </section>
+<!-- Ikasmaterialaren aurkezpena: gida,histegia,bibliografia  BUKA -->
+  <!-- Liburuaren edukia 12 atal bakoitzaren azalpen laburrarekin  HASI -->
+  <section class="gidaGaiak">
+    <h3>Ikasmateriala osatzen duten ikasgaiak</h3>
+    <article class="gidagaia">
+      <a href="ikasgaiak/ikas-web.html">
+        <div class="gidagai">
+            <img src="irudiak/ika-webgarapena.jpg" width="110" alt="Internet logoa" srcset="">
+            <h3>1.- Web garapena</h3>
+            <p>Internet zer den ikusita, web-orriak sortzeko eta webguneak osatzeko beharko ditugun elementuak eta lanabesak ikusiko ditugu hiru ataletan: WEBGUNEAK, LENGOAIAK eta LANABESAK.</p>
+        </div>
+      </a>
+      <a href="ikasgaiak/ikas-html.html">
+        <div class="gidagai">
+            <img src="irudiak/ika-html.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>3.- HTML</h3>
+            <p>Web-orrien edukia eta egitura, irudiak, zerrendak, bideoak eta abar definitzeko erabiltzen den HTML lengoaiaren xehetasunak ikasiko ditugu hiru ataletan: EGITURA, EDUKIA eta FORMULARIOAK. </p>
+        </div>
+      </a>
+      <a href="ikasgaiak/ikas-css.html">
+        <div class="gidagai">
+          <img src="irudiak/ika-css.jpg" width="80" alt="Internet logoa" srcset="">
+          <h3>4.- CSS</h3>
+          <p>Web-orria pantailari egokitzeko 'Media Queries' izeneko tresnaz baliatuko gara. Tresna hori CSSk
+              hornitzen du.</p>
+        </div>
+      </a>
+      <a href="ikasgaiak/ikas-css.html">
+        <div class="gidagai">
+          <img src="irudiak/ika-css.jpg" width="80" alt="Internet logoa" srcset="">
+          <h3>5.- CSS orrien diseinua</h3>
+          <p>Web-orria pantailari egokitzeko 'Media Queries' izeneko tresnaz baliatuko gara. Tresna hori CSSk
+              hornitzen du.</p>
+        </div>
+      </a>
+      <a href="ikasgaiak\ikas-css-diseinuMoldagarria.html">
+        <div class="gidagai">
+          <img src="irudiak/ika-css-moldagarria.jpg" width="100" alt="Internet logoa" srcset="">
+            <h3>6.- CSS diseinu moldagarria</h3>
+            <p>Gure web-orriak dispositibo guztietan modu erakargarrian erakusteko erabili behar dugun kodea.</p>
+        </div>
+      </a>
+      </div>
+      <a href="ikasgaiak/ikas-js.html">
+        <div class="gidagai">
+          <img src="irudiak/ika-js.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>7.- JavaScript</h3>
+            <p><strong>JavaScript</strong>ek jarraibideak modu sekuentzialean exekutatzen ditu, sistemari adierazteko
+              zer nahi dugun egin.</p>
+        </div>
+      </a>
+      <a href="ajax.html">
+      <div class="gidagai"> 
+            <img src="irudiak/ika-ajax.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>8.- AJAX</h3>
+            <p> <strong>'XMLHttpRequest'</strong> objektua da JavaScript-etik informazioa lortzeko, orri osoa berriro
+              kargatu beharrik
+              gabe.</p>
+        </div>
+      </a>
+      <a href="api1.html">
+      <div class="gidagai">
+            <img src="irudiak/ika-api.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>9.- API (1)</h3>
+            <ul>
+              <li>Form: formularioak kudeatzeko.</li>
+              <li>Stream: Aparatuarekin konektatzeko.</li>
+              <li>Fullscream: pantaila osoa.</li>
+              <li>Canvas: mihisea erabilktzeko.</li>
+            </ul>
+        </div>
+      </a>
+      <a href="api2.html">
+      <div class="gidagai">
+            <img src="irudiak/ika-api.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>10.- API (2)</h3>
+            <ul>
+              <li>Pointer Lock: xaguaren funtzioak.</li>
+              <li>Web Storage: datuak gordetzeko.</li>
+              <li>IndesedDB: datu ugari gordetzeko.</li>
+              <li>File: norberaren fitxategiak erabiltzeko.</li>
+            </ul>
+        </div>
+      </a>
+      <a href="api3.html">
+      <div class="gidagai">
+       <img src="irudiak/ika-api.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>11.- API (3)</h3>
+            <ul>
+              <li>Drag and Drop: elementuak mugitzeko.</li>
+              <li>Geolocation: kokapenaz jolasteko.</li>
+              <li>History : bilaketak gordetzeko.</li>
+              <li>Page Visibility: gastua kudeatzeko.</li>
+            </ul>
+        </div>
+      </a>
+      <a href="api4.html">
+      <div class="gidagai">
+        <img src="irudiak/ika-api.jpg" width="80" alt="Internet logoa" srcset="">
+            <h3>12.- API (4)</h3>
+            <ul>
+              <li>Web Messaging: mezuak kudeatzeko.</li>
+              <li>Web Socket: komunikazioa bideratzeko.</li>
+              <li>Web RT: bapateko komunikazioak.</li>
+              <li>Web Audio: audioa kudeatzeko.</li>
+              <li>Web Workers: albo prozesuak.</li>
+            </ul>
+        </div>
+      </a>
+
+  </section>
+</main>
+  <!-- Liburuaren edukia 12 atal bakoitzaren azalpen laburrarekin  BUKA -->
+
+  <!-- GORA IGOTZEKO BOTOI GORRIA BAHEAN ESKUINEAN hasi -------------- -->
+  <span class="ir-arriba icon-arrow-up2"></span>
+  <!-- End page content -->
+  <button class="toTop" id="toTop">
+    <svg viewBox="0 0 24 24">
+      <path d="m4 16 8-8 8 8"></path>
+    </svg>
+  </button>
+  <!-- GORA IGOTZEKO BOTOI GORRIA BAHEAN ESKUINEAN buka -------------- -->
+
+  <!-- Orriaren oina -----'FOOTER'------HASI   -->
+  <footer>
+    <span onclick="w3_open()"><i class="fa fa-arrow-circle-o-left"></i>&nbsp;Ireki menua</span>
+    <h3>OINEAN OINETAKOA</h3>
+    <a href="https://praiskopedia.eus" target="_blank">&copy; Praiskopedia</a>
+  </footer>
+  <!-- Orriaren oina -----'FOOTER'------BUKA   -->
+
+</body>
+
+</html>
+<!-- HEMEN BUKATZEN DA 'web-ikas' orrialdearen HTMLa -->
+
+<!-- HEMEN DOA menua eta gorako botoia maneiatzeko JavaScript-a <script> eta </script> etiketen artean ----------- HASI -->
+<script>
+  // Menua irekitzeko eta ixteko kodea
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  //Gorako botoia agerrarazteko, ezkutatzeko eta klikatuz orriaren goialdera igotzeko kodea
+  const toTop = (() => {
+    let button = document.getElementById("toTop");
+    window.onscroll = () => {
+      button.classList[
+        (document.documentElement.scrollTop > 200) ? "add" : "remove"
+      ]("is-visible")
+    }
+    button.onclick = () => {
+      window.scrollTo({
+        top: 0, behavior: "smooth"
+      })
+    }
+  })();
+</script>
+<!-- Menua eta gorako botoia maneiatzeko JavaScript-a, <script> eta </script> etiketen artean doana, ----------- BUKA -->
+
+<!-- Kanpoko fitxategiak erabili ahal izateko estekak (JavaScript-ak orria bukaeran idatzi ohi dira, sistemak 
+  HTML eta CSS guztia irakurri ostean irakur ditzan) -------------- -->
+<script src="../js/vendor/galdetegia.js"></script>
+<script src="../js/vendor/kudeaketa.js"></script>
+<script src="../js/vendor/lengoaiaSkripta.js"></script>
