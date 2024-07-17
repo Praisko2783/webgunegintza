@@ -1,1 +1,0 @@
-Ariketak webgunegintzan
